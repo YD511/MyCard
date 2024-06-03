@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 25%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f1f1f1;
+}
+
+.card {
+    background-color: rgba(15, 15, 15, 0.852);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
+}
+
+.card-form {
+    text-align: center;
+    height: 80vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.photo-group, .links-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.Photo img {
+    width: 135px;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+
+table {
+    margin: auto;
+}
+
+table tr td {
+    padding: 6px ;
+}
+
+table tr td a {
+    display: block;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    
+}
+
+table tr td a:hover {
+    background-color: hsl(0, 0%, 30%);
+}
+img{
+    width: 20px; 
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
